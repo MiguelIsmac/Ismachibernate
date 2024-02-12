@@ -16,12 +16,12 @@ public class PrincipalCliente {
 		
 		ClienteDAO clienteDAO = context.getBean("clienteDAOImpl", ClienteDAO.class);
 			
-		Cliente cliente2 = new Cliente(0,"1754326178","David","Fernandando","Quito","0981222541", "dfer@gmail.com");
-		clienteDAO.add(cliente2);
-//		Cliente cliente3 = new Cliente(39,"1754326178","David","Sanchez","Quito","0981222541", "dfernan@gmail.com");
+//		Cliente cliente2 = new Cliente(0,"1724321234","Luis","Sanchez","Guayaquil","099999999", "lsanchez@gmail.com");
+//		clienteDAO.add(cliente2);
+//		Cliente cliente3 = new Cliente(39,"1724321234","Luis","Sanchez","Quito","099999999", "lsanchez@gmail.com");
 //		clienteDAO.up(cliente3);
 		
-//		clienteDAO.del(39);
+		clienteDAO.del(36);
 		
 		List<Cliente> clientes = clienteDAO.findAll();
 		

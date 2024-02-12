@@ -26,15 +26,15 @@ public class PrincipalFactura {
 		
 		
 		Cliente cliente = clienteDAO.findOne(1);
-		Factura factura = new Factura(0,"FAC-0099",new Date(), 20.22,2.30,25.23, cliente);
+		Factura factura = new Factura(0,"FAC-0082",new Date(), 20.22,0.12,22.10, cliente);
 		
 		
 		//facturaDAO.add(factura);
 		
 		
 
-		Cliente cliente2 = clienteDAO.findOne(2);
-		Factura factura2 = new Factura(86,"FAC-0099",new Date(), 3.3,33.3,35.3, cliente2);
+//		Cliente cliente2 = clienteDAO.findOne(2);
+//		Factura factura2 = new Factura(86,"FAC-0099",new Date(), 3.3,33.3,35.3, cliente2);
 		
 		//facturaDAO.up(factura2);
 		

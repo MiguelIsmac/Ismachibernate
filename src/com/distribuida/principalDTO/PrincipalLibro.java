@@ -15,7 +15,7 @@ public class PrincipalLibro {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Libro libro = new Libro(90, "Prueba", "Prueba", 0, "Prueba", "l0", new Date(), "Prueba ", "Prueba ", "Prueba", "Prueba", "Prueba", "PRUEBA", 1.0);
+		Libro libro = new Libro(73, "Bajo la lluvia", "Miguel", 200, "2da", "Español", new Date(), "Triste ", "Blanca ", "978-543545", "300", "Blanca", "Virtual", 19.0);
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 		
 		LibroService libroService = context.getBean("libroServiceImpl", LibroService.class);

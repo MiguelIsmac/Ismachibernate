@@ -4,12 +4,9 @@ import java.util.List;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.distribuida.entities.Factura;
-import com.distribuida.dao.FacturaDAO;
 import com.distribuida.entities.FacturaDetalle;
 import com.distribuida.dao.FacturaDetalleDAO;
-import com.distribuida.entities.Libro;
-import com.distribuida.dao.LibroDAO;
+
 
 
 
@@ -22,7 +19,7 @@ public class PrincipalFacturaDetalle {
 		
 		FacturaDetalleDAO facturadetalleDAO = context.getBean("facturadetalleDAOImpl", FacturaDetalleDAO.class);
 			
-//		FacturaDetalle facturadetalle2 = new FacturaDetalle(0,"2",30.45,0,0);
+//		FacturaDetalle facturadetalle2 = new FacturaDetalle(0,2,30.45,0,0);
 //		facturadetalleDAO.add(facturadetalle2);
 //		Facturadetalle facturadetalle3 = new Facturadetalle(0,"2",30.45,0,0);;
 //		facturadetalleDAO.up(facturadetalle3);

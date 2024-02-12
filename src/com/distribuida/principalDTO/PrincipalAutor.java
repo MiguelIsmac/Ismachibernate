@@ -17,7 +17,7 @@ public class PrincipalAutor {
 		AutorService autorService = context.getBean("autorServiceImpl", AutorService.class);
 		
 		
-		//Autor autor = new Autor(0, "M", "I", "G", "U", "E", "L");
+		//Autor autor = new Autor(0, "Juan", "Bustamante", "Quito","Pifo", "0943242349", "jbustamantel@gmail.com");
 		//autorService.add(autor);
 		
 		

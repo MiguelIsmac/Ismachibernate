@@ -16,12 +16,12 @@ public class PrincipalAutor {
 		
 		AutorDAO autorDAO = context.getBean("autorDAOImpl", AutorDAO.class);
 			
-		Autor autor2 = new Autor(0,"Juan","Bustamante","Pifo","Quito","09726154231","jbustamante@gmail.com");
-		autorDAO.add(autor2);
+//		Autor autor2 = new Autor(0,"Luis","Sanchez","Yaruqui","Quito","099999999","lsanchez@gmail.com");
+//		autorDAO.add(autor2);
 //		Autor autor3 = new Autor(51,"Juan","Bustamante","Pifo","Quito","09726154231","jbustamante1@gmail.com);
 //		autorDAO.up(autor3);
 		
-//		autorDAO.del(51);
+		autorDAO.del(54);
 		
 		List<Autor> autores = autorDAO.findAll();
 		
